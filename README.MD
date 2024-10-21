@@ -1,4 +1,6 @@
 # File Encryptor and Decryptor
+[![Python Version](https://img.shields.io/badge/python-3.x-blue.svg)](https://www.python.org/)
+[![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
 
 This project provides a simple yet powerful tool for encrypting and decrypting files using AES encryption in CTR mode. It includes a client-server architecture that allows for secure file operations over a network.
 
@@ -50,7 +52,7 @@ Modify the key in the FileEncryptor class if you wish to use a different encrypt
 Ensure that your encryption key is kept secret. Sharing the key can lead to unauthorized access to your files.
 Be aware of potential vulnerabilities in network communications. Use a secure network environment when running the server and client.
 ## License
-This project is licensed under the MIT License. See the LICENSE file for more details.
+This project is licensed under the MIT License - see the [LICENSE](./LICENSE) file for details.
 
 ## Acknowledgments
 PyCryptodome for the cryptography library.
